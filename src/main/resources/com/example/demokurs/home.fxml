@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demokurs.Controllers.HomeController">
+   <children>
+      <AnchorPane layoutX="203.0" layoutY="15.0" opacity="0.52" prefHeight="70.0" prefWidth="222.0" style="-fx-background-color: #74c7b0;" />
+      <AnchorPane layoutX="304.0" layoutY="76.0" opacity="0.52" prefHeight="55.0" prefWidth="200.0" style="-fx-background-color: #74c7b0;" />
+      <AnchorPane layoutX="122.0" layoutY="57.0" opacity="0.52" prefHeight="55.0" prefWidth="193.0" style="-fx-background-color: #74c7b0;" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="215.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/brand.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-2.0" layoutY="214.0" opacity="0.4" prefHeight="82.0" prefWidth="608.0" style="-fx-background-color: #000000;">
+         <children>
+            <Button fx:id="ContactsButton" layoutX="61.0" layoutY="41.0" mnemonicParsing="false" opacity="0.69" prefWidth="109.0" style="-fx-background-color: 0,3;" text="Контакты" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="SpecialistsButton" layoutX="54.0" layoutY="1.0" mnemonicParsing="false" opacity="0.69" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: 0,3;" text="Специалисты" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="hintButton" layoutX="331.0" layoutY="1.0" mnemonicParsing="false" opacity="0.69" prefHeight="40.0" prefWidth="84.0" style="-fx-background-color: 0,3;" text="Прайс" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="ClassesButton" layoutX="57.0" layoutY="175.0" mnemonicParsing="false" opacity="0.82" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: 0,3;" text="Наши занятия">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="HomeButton" layoutX="57.0" layoutY="131.0" mnemonicParsing="false" opacity="0.82" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: 0,3;" text="Главная" textFill="#1ee4a8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitButton" layoutX="335.0" layoutY="176.0" mnemonicParsing="false" opacity="0.82" style="-fx-background-color: 0,3;" text="Выйти из учетной записи">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="609.0" fitWidth="608.0" layoutY="295.0" opacity="0.69" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/mainback.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#3cbf7f" fontSmoothingType="LCD" layoutX="128.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Никогда не поздно">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Text layoutX="193.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Начинать!">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Text>
+      <Text layoutX="117.0" layoutY="572.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Чем больше ты будешь откладывать,">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="147.0" layoutY="604.0" strokeType="OUTSIDE" strokeWidth="0.0" text="тем больше ты будешь откладывать...">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Button fx:id="AboutButton" layoutX="166.0" layoutY="644.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="248.0" style="-fx-background-color: #1ee4a8;" text="Узнать  о  нас" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

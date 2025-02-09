@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #252021;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demokurs.Controllers.SpecialistsController">
+    <children>
+        <Label layoutX="227.0" layoutY="23.0" prefHeight="61.0" prefWidth="245.0" text="AlaskaClub" textFill="#cfc9c9">
+            <font>
+                <Font name="Bodoni MT" size="50.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutY="101.0" prefHeight="298.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <AnchorPane layoutX="53.0" layoutY="44.0" opacity="0.54" prefHeight="239.0" prefWidth="187.0" style="-fx-background-color: #74c7b0;" />
+            <ImageView fx:id="SImage" fitHeight="239.0" fitWidth="209.0" layoutX="69.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Assets/Specialists/s1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="NextButton" layoutX="656.0" layoutY="137.0" mnemonicParsing="false" style="-fx-border-color: #74c7b0;" text="-&gt;" />
+            <Button fx:id="BackButton" layoutX="14.0" layoutY="137.0" mnemonicParsing="false" style="-fx-border-color: #74c7b0;" text="&lt;-">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextArea fx:id="Skills" layoutX="279.0" layoutY="113.0" prefHeight="155.0" prefWidth="362.0" promptText="Фёдор Фёдоров" text="Методист учебного центра «Фитнес &#10;образование» по направлениям:&#10;1) Курсы: «Коррекционный тренинг», &#10;«Подвесной тренинг (TRX)»&#10;2) Семинары серии GOLD: «Cтопа и голеностоп», &#10;«Лопатка и плечо», «Ягодицы.ТБС», «Позвоночник»,&#10;«Фасция и миофасциальный релиз»" wrapText="true">
+               <font>
+                  <Font name="Sitka Display" size="14.0" />
+               </font>
+            </TextArea>
+            <Text fx:id="Speciality" layoutX="279.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-scale-x: #74c7b0;" text="Персональный тренер">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="256.0" layoutY="36.0" opacity="0.54" prefHeight="29.0" prefWidth="446.0" style="-fx-background-color: #74c7b0;" />
+            <Text fx:id="NameSpecialist" layoutX="402.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фёдор Фёдоров">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Text>
+         </children>
+        </AnchorPane>
+      <Button fx:id="HomeButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" opacity="0.9" prefHeight="30.0" prefWidth="78.0" style="-fx-background-color: #fafafa;" text="Главная" textFill="#1ee4a8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

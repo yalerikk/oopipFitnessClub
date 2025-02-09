@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #252021;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demokurs.Controllers.AddClassesController">
+    <children>
+        <AnchorPane layoutY="101.0" prefHeight="298.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <AnchorPane layoutX="487.0" layoutY="28.0" opacity="0.54" prefHeight="239.0" prefWidth="187.0" style="-fx-background-color: #74c7b0;" />
+                <Button fx:id="AddButton" layoutX="505.0" layoutY="241.0" mnemonicParsing="false" opacity="0.82" prefHeight="52.0" prefWidth="194.0" style="-fx-background-color: 0,3;" text="Добавить занятие">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+            <TextField fx:id="TypeOfServiceField" alignment="TOP_LEFT" layoutX="26.0" layoutY="22.0" prefHeight="31.0" prefWidth="178.0" promptText="Вид услуги">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="SpecialistField" alignment="TOP_LEFT" layoutX="258.0" layoutY="22.0" prefHeight="31.0" prefWidth="177.0" promptText="Тренер">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="ClientField" alignment="TOP_LEFT" layoutX="26.0" layoutY="74.0" prefHeight="31.0" prefWidth="178.0" promptText="Клиент">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="CostField" alignment="TOP_LEFT" layoutX="257.0" layoutY="74.0" prefHeight="31.0" prefWidth="178.0" promptText="Стоимость">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Text layoutX="39.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дата:" wrappingWidth="45.468353271484375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="39.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Время:" wrappingWidth="52.6683349609375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <DatePicker fx:id="SelectDate" layoutX="178.0" layoutY="145.0" prefHeight="26.0" prefWidth="214.0" style="-fx-skin: #74c7b0;" />
+            <Button fx:id="OkDateButton" layoutX="415.0" layoutY="138.0" mnemonicParsing="false" opacity="0.82" prefHeight="40.0" prefWidth="45.0" style="-fx-background-color: 0,3;" text="✓">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Spinner fx:id="HourSpinner" editable="true" layoutX="178.0" layoutY="217.0" prefHeight="26.0" prefWidth="95.0" />
+            <Button fx:id="OkTimeButton" layoutX="415.0" layoutY="211.0" mnemonicParsing="false" opacity="0.82" prefHeight="40.0" prefWidth="45.0" style="-fx-background-color: 0,3;" text="✓">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Spinner fx:id="MinuteSpinner" editable="true" layoutX="296.0" layoutY="217.0" prefHeight="26.0" prefWidth="95.0" />
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="112.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Assets/date.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="34.0" layoutX="115.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Assets/time.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="282.0" layoutY="213.0" text=":">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="Label" layoutX="138.0" layoutY="256.0" prefHeight="20.0" prefWidth="293.0" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="250.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../Assets/brand.png" />
+            </image>
+        </ImageView>
+      <Button fx:id="BackForAdminButton" layoutY="7.0" mnemonicParsing="false" opacity="0.82" prefHeight="34.0" prefWidth="154.0" style="-fx-background-color: 0,3;" text="Выход в меню" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

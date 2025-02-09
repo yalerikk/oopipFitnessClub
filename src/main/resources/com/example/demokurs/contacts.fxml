@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #252021;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demokurs.Controllers.ContactsController">
+    <children>
+          <Button fx:id="HomeButton" layoutX="442.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="62.0" style="-fx-background-color: #74c7b0;" text="Главная" />
+      <Text fill="#74c7b0" layoutX="27.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="КОНТАКТЫ">
+         <font>
+            <Font name="Candara Italic" size="45.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="500.0" fitWidth="403.0" layoutX="512.0" opacity="0.41" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: #252021;">
+         <image>
+            <Image url="@../../../Assets/sportygirl.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="47.0" layoutX="15.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/gps.png" />
+         </image>
+      </ImageView>
+      <Text fill="#fffefe" layoutX="71.0" layoutY="91.0" opacity="0.78" strokeType="OUTSIDE" strokeWidth="0.0" text="Адрес" wrappingWidth="90.19903564453125">
+         <font>
+            <Font name="DecoType Thuluth" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="71.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="пр. Машерова 76А, Минск">
+         <font>
+            <Font name="DejaVu Sans Bold" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="15.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/whitecircle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="55.0" layoutX="20.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/clock.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="15.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/whitecircle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="15.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/whitecircle.png" />
+         </image>
+      </ImageView>
+      <Text fill="#fffefe" layoutX="71.0" layoutY="157.0" opacity="0.78" strokeType="OUTSIDE" strokeWidth="0.0" text="Режим   работы" wrappingWidth="165.3990478515625">
+         <font>
+            <Font name="DecoType Thuluth" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="71.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Будние: с 7.00 до 23.00 Выходные: с 9.00 до 21.00" wrappingWidth="308.8739929199219">
+         <font>
+            <Font name="DejaVu Sans Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffefe" layoutX="71.0" layoutY="239.0" opacity="0.78" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="165.3990478515625">
+         <font>
+            <Font name="DecoType Thuluth" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="71.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="alaska_club@gmail.com" wrappingWidth="308.8739929199219">
+         <font>
+            <Font name="DejaVu Sans Bold" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="52.0" fitWidth="35.0" layoutX="20.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/email.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="35.0" layoutX="20.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/tel.png" />
+         </image>
+      </ImageView>
+      <Text fill="#fffefe" layoutX="71.0" layoutY="307.0" opacity="0.78" strokeType="OUTSIDE" strokeWidth="0.0" text="Телефоны" wrappingWidth="165.3990478515625">
+         <font>
+            <Font name="DecoType Thuluth" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="67.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+375 44 7-555-000 +375 29 500-10-55" wrappingWidth="188.07394409179688">
+         <font>
+            <Font name="DejaVu Sans Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="298.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Заинтересовало? - Запишитесь!" wrappingWidth="188.07394409179688">
+         <font>
+            <Font name="DejaVu Sans Bold" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="57.0" fitWidth="45.0" layoutX="233.0" layoutY="408.0" opacity="0.75" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="45.0" layoutX="193.0" layoutY="408.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="45.0" layoutX="154.0" layoutY="408.0" opacity="0.75" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Assets/arrow.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="15.0" layoutY="402.0" opacity="0.82" prefHeight="56.0" prefWidth="126.0" style="-fx-background-color: #fafafa;" />
+      <Button fx:id="AuthButton" layoutX="20.0" layoutY="407.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="118.0" style="-fx-background-color: #74c7b0;" text="Авторизоваться">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
